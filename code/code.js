@@ -20,10 +20,10 @@ function draw() {
     clear();
     background(0);
     translate(400, 150);
-    for (let i = 0; i < 360; i += 45) {
-      rotate(45);
+    for (let i = 0; i < 360; i += 30) {
+      rotate(30);
       fill(255, 255, 0);
-      ellipse(0, 0+50, 50, 100);
+      ellipse(0, 0+50, 50, 150);
       fill(255);
       circle(0, 0, 50);
     }
